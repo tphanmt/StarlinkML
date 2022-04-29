@@ -3,6 +3,7 @@ import numpy as np
 import shutil
 import zipfile
 import multiprocessing
+from tslearn.utils import to_time_series_dataset
 
 def parseFilesInFolder(filename: str, 
                         zipFilePath: str,
@@ -67,3 +68,14 @@ if (__name__ == "__main__"):
                 # Multiprocessing for each file within the zip
                 with multiprocessing.Pool(processes=os.cpu_count()) as pool:
                     pool.starmap(parseFilesInFolder, filepath_list)
+
+    # Load the data and turn them into time-series
+    # Save as a numpy npy file
+    starlink_names = os.listdir(out_dir)
+    starlink_data = []
+    for filepath in starlink_names:
+        with open(os.path.join(rootdir, filepath), 'r') as f:
+            starlink_data.append(np.loadtxt(f))
+
+    starlink_data = to_time_series_dataset(starlink_data)
+    np.save("starlink_data", starlink_data)
