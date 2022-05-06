@@ -36,7 +36,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+    <li>
+      <a href="#about-starlink-ML">About Starlink ML</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -57,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Starlink ML
 
-Final Project for UT Austin CSE 382M: We ran a comparison of clustering algorithms to identify Starlink satellite's modes of operation. This project was a collaboration with UT's Computational Astronautical Sciences and Technologies (CAST). This repo includes our preprocessing scripts and our analysis notebooks. The coode clusters with k-means++(clusters.ipynb) and time series k-means(ts_cluster.ipynb).
+Final Project for UT Austin CSE 382M: We ran a comparison of clustering algorithms to identify Starlink satellite's modes of operation. This project was a collaboration with UT's Computational Astronautical Sciences and Technologies (CAST). This repo includes our preprocessing scripts and our analysis notebooks. The code clusters with k-means++(clusters.ipynb) and time series k-means(ts_cluster.ipynb).
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
