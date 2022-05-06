@@ -58,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Starlink ML
 
-Final Project for UT Austin CSE 382M: We ran a comparison of clustering algorithms to identify Starlink satellite's modes of operation. This project was a collaboration with UT's Computational Astronautical Sciences and Technologies (CAST). This repo includes our preprocessing scripts and our analysis notebooks. The code clusters with k-means++(clusters.ipynb) and time series k-means(ts_cluster.ipynb).
+Final Project for UT Austin CSE 382M: We ran a comparison of clustering algorithms to identify Starlink satellite's modes of operation. This project was a collaboration with UT's Computational Astronautical Sciences and Technologies (CAST). This repo includes our preprocessing scripts and our analysis notebooks. Parser.py parsed the original data from space-track.org. Label_DATA.ipynb was used to interactively label satellite data. The code clusters with k-means++(clusters.ipynb) and time series k-means(ts_cluster.ipynb).
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
