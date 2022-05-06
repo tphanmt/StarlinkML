@@ -102,9 +102,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Tiffany Phan [github](https://github.com/tphanmt)
-Keith Poletti [github](https://github.com/KPoletti)
-Qing Zhu [github](https://github.com/qing42102)
+* Tiffany Phan [github](https://github.com/tphanmt)
+* Keith Poletti [github](https://github.com/KPoletti)
+* Qing Zhu [github](https://github.com/qing42102)
 
 Project Link: [https://github.com/tphanmt/StarlinkML.git](https://github.com/tphanmt/StarlinkML.git)
 
